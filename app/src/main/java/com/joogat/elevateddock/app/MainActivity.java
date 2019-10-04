@@ -3,6 +3,7 @@ package com.joogat.elevateddock.app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         menuDock = findViewById(R.id.menu_dock);
+        Log.e("tag","=====");
         menuDock.setPopupRouter(new MenuPopupRouter());
         findViewById(R.id.text).setOnClickListener(this);
     }
