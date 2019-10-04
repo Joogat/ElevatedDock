@@ -3,7 +3,7 @@ package com.joogat.elevateddock.app;
 import android.view.View;
 
 import com.joogat.elevateddock.Popup;
-import com.joogat.utils.L;
+import com.joogat.logger.L;
 
 public class ExtrasMenuPopup extends Popup implements View.OnClickListener {
 
