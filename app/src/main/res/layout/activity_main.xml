@@ -15,7 +15,7 @@
         android:background="#eeeeee"
         android:text="Hello World!"/>
 
-    <com.joogat.elevateddock.ElevatedDock
+    <com.joogat.elevatedtools.ElevatedDock
         android:id="@+id/menu_dock"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

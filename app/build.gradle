@@ -35,5 +35,5 @@ dependencies {
     implementation 'com.joogat.viewouts2:viewouts:0.0.4'
 
 //    implementation project(':utils')
-    implementation project(':elevateddock')
+    implementation project(':elevatedtools')
 }
