@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Popup" />
+
+    <style name="Popup.Window">
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded_container_white</item>
+        <item name="android:alpha">0</item>
+        <item name="android:scaleX">0.8</item>
+        <item name="android:scaleY">0.8</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:elevation" tools:targetApi="21" >2dp</item>
+    </style>
+
+    <style name="Popup.Window.DEBUG">
+        <item name="android:alpha">1</item>
+        <item name="android:scaleX">1</item>
+        <item name="android:scaleY">1</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="Popup.ActionContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+</resources>

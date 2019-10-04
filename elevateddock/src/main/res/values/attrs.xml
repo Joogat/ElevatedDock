@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ElevatedDock">
+        <attr name="contentCoverBackground" format="color|reference"/>
+        <attr name="animationDuration" format="integer"/>
+    </declare-styleable>
+
+</resources>
